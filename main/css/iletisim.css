@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Serif Tangut', serif;
+  font-size: large;     
+  line-height: 2;
+  letter-spacing: 2px; 
+  background-color: #FAF6F0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.navbar {
+  background-color: #000000;
+
+}
+.navbar-brand img {
+  border-radius: 50%;
+
+}
+      
+.navbar-nav .nav-link.active {
+  color: #FAF6F0; 
+
+}  
+
+.nav-link{
+  color: #FAF6F0;
+  font-size: 20px;
+}
+
+.box {
+  margin: 0%;
+  padding: 2%;
+  background-color: #F4DFC8;
+}
+.form {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  justify-content: center;
+}
+    
+    
+.form input[type="text"],
+.form input[type="email"],
+.form textarea 
+{
+  width: 100%;
+  padding: 10px; 
+  margin-bottom: 10px; 
+  box-sizing: border-box; 
+}
+    
+      
+.form input[type="submit"] {
+  background-color: #000000; 
+  color: #FAF6F0; 
+  border: none; 
+  cursor: pointer;
+}
+.form input[type="submit"]:hover {
+        background-color: #F4DFC8; 
+        color: #000000;
+
+      }
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-links a {
+    margin-right: 10px;
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer p{
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: #F4EAE0;
+}
+
+

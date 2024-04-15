@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif Tangut', serif;
+    font-size: large;     
+    line-height: 2;
+    letter-spacing: 2px; 
+    background-color: #FAF6F0;
+    }
+  
+.nav-link {
+    color: #FAF6F0;
+    font-size: 20px;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+    
+.navbar-nav .nav-link.active {
+    color: #FAF6F0;
+}
+  
+.content-section {
+    display: flex;
+    align-items: center; /* İçerikleri dikeyde ortalar */
+}
+
+.content-left {
+    flex: 1; /* Sol taraftaki içeriğin genişliğini ayarlar */
+}
+
+.content-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-right {
+    flex: 2; /* Sağ taraftaki içeriğin genişliğini ayarlar */
+    padding: 0 20px; /* İçeriğin kenar boşluklarını ayarlar */
+}
+
+
+.footer {
+    padding: 0.5rem 0;
+    font-size: 14px;
+    text-align: center;
+}
+  
+.footer a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+  
+.footer p{
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+  
+.footer a:hover {
+    color: #F4EAE0;
+}
+  
